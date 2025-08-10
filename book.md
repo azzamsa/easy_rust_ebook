@@ -98,7 +98,7 @@ The number after the i or the u means the number of bits for the number, so numb
 
 So what is `isize` and `usize`? This means the number of bits on your type of computer. (The number of bits on your computer is called the **architecture** of your computer.) So `isize` and `usize` on a 32-bit computer is like `i32` and `u32`, and `isize` and `usize` on a 64-bit computer is like `i64` and `u64`.
 
-There are many reasons for the different types of integers. One reason is computer performance: a smaller number of bytes is faster to process. For example, the number -10 as an `i8` is `11110110`, but as an `i128` it is `11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111110110`. But here are some other uses:
+There are many reasons for having different types of integers. One reason is computer performance: fewer bytes are faster to process. For example, the number `-10` as an `i8` is `11110110`. As an `i128`, it has the same ending bits but is padded with 120 leading ones, represented as `...(120 ones)...11110110`. Here are some other uses:
 
 Characters in Rust are called `char`. Every `char` has a number: the letter `A` is number 65, while the character `友` ("friend" in Chinese) is number 21451. The list of numbers is called "Unicode". Unicode uses smaller numbers for characters that are used more, like A through Z, or digits 0 through 9, or space.
 
