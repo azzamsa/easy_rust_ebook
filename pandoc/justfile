@@ -1,6 +1,5 @@
 #!/usr/bin/env -S just --justfile
 
-
 alias c := comply
 alias k := check
 
@@ -15,7 +14,8 @@ comply: fmt compile
 check: fmt compile
 
 fmt:
-    just --justfile typst/justfile fmt 
 
 compile:
-    just --justfile typst/justfile compile
+    # https://pandoc.org/epub.html
+    pandoc --webtex --output easy_rust.epub ../book/title.txt ../book/main.md
+    

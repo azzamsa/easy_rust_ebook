@@ -1,6 +1,6 @@
 #!/usr/bin/env -S just --justfile
 
-
+alias d := dev
 alias c := comply
 alias k := check
 
@@ -14,8 +14,11 @@ comply: fmt compile
 # Check if the repository comply with the rules and ready to be pushed.
 check: fmt compile
 
+dev:
+    typst watch main.typ easy_rust.pdf --root ../ --font-path ../fonts
+
 fmt:
-    just --justfile typst/justfile fmt 
+    typstyle format-all
 
 compile:
-    just --justfile typst/justfile compile
+    typst compile main.typ easy_rust.pdf --root ../  --font-path ../fonts
