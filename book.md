@@ -17,7 +17,6 @@ Part 1 - Rust in your browser
 This book has two parts. In Part 1, you will learn as much Rust as you can just in your browser. You can actually learn almost everything you need to know without installing Rust, so Part 1 is very long. Then at the end is Part 2. It is much shorter, and is about Rust on your computer. That's where you will learn everything else you need to know that you can only do outside of a browser. Some examples are: working with files, taking user input, graphics, and personal settings. Hopefully, by the end of Part 1 you will like Rust enough that you will install it. And if you don't, no problem - Part 1 teaches you so much that you won't mind.
 
 ## Rust Playground
-<br>
 
 [See this chapter on YouTube](https://youtu.be/-lYeJeQ11OI).
 
@@ -39,7 +38,6 @@ If you want to install Rust, go here [https://www.rust-lang.org/tools/install](h
 Sometimes the code examples in the book don't work. If an example doesn't work, it will have a 🚧 or a ⚠️ in it. 🚧 is like "under construction": it means that the code is not complete. Rust needs a `fn main()` (a main function) to run, but sometimes we just want to look at small pieces of code so it won't have a `fn main()`. Those examples are correct, but need a `fn main()` for you to run them. And some code examples show you a problem that we will fix. Those ones might have a `fn main()` but generate an error, and so they will have a ⚠️.
 
 ## Comments
-<br>
 
 [See this chapter on YouTube](https://youtu.be/fJ7jBZG_Rpo).
 
@@ -86,7 +84,6 @@ fn main() {
 Rust has many types that let you work with numbers, characters, and so on. Some are simple, others are more complicated, and you can even create your own.
 
 ### Primitive types
-<br>
 
 [See this chapter on YouTube](https://youtu.be/OxTPU5UGMhs).
 
@@ -244,7 +241,6 @@ Slice2 is 7 bytes but only 3 characters.
 ```
 
 ## Type inference
-<br>
 
 [See this chapter on YouTube](https://youtu.be/q1D2vpy3kEI).
 
@@ -372,7 +368,6 @@ fn main() {
 ```
 
 ## Printing 'hello, world!'
-<br>
 
 See this chapter on YouTube: [Video 1](https://youtu.be/yYlPHRl2geQ), [Video 2](https://youtu.be/DTCSfBJJZb8).
 
@@ -542,7 +537,6 @@ fn main() {
 So why did we write `{:?}` and not `{}`? We will talk about that now.
 
 ## Display and debug
-<br>
 
 [See this chapter on YouTube](https://youtu.be/jd3pC248c0o).
 
@@ -623,7 +617,6 @@ The smallest u128 is 0 and the biggest u128 is 340282366920938463463374607431768
 ```
 
 ## Mutability (changing)
-<br>
 
 [See this chapter on YouTube](https://youtu.be/Nyyd6qn7dZY).
 
@@ -663,7 +656,6 @@ fn main() {
 You will see the same "expected" message from the compiler: `expected integer, found &str`. `&str` is a string type that we will learn soon.
 
 ### Shadowing
-<br>
 
 [See this chapter on YouTube](https://youtu.be/InULHyRGw7g).
 
@@ -1095,7 +1087,6 @@ SEOUL--------------------TOKYO
 ```
 
 ## Strings
-<br>
 
 [See this chapter on YouTube](https://youtu.be/pSyaGzGg26o).
 
@@ -1207,7 +1198,6 @@ fn main() {
 And now you get a String.
 
 ## const and static
-<br>
 
 [See this chapter on YouTube](https://youtu.be/Ky3HqkWUcI0).
 
@@ -1223,7 +1213,6 @@ You write them with ALL CAPITAL LETTERS, and usually outside of `main` so that t
 Two examples are: `const NUMBER_OF_MONTHS: u32 = 12;` and `static SEASONS: [&str; 4] = ["Spring", "Summer", "Fall", "Winter"];`
 
 ## More on references
-<br>
 
 [See this chapter on YouTube](https://youtu.be/R13sQ8SNoEQ).
 
@@ -1262,7 +1251,6 @@ The function `return_str()` creates a String, then it creates a reference to the
 This is the important part about the "owned" type that we talked about above. Because you own a `String`, you can pass it around. But a `&String` will die if its `String` dies, so you don't pass around "ownership" with it.
 
 ## Mutable references
-<br>
 
 [See this chapter on YouTube](https://youtu.be/G48z6Rv76vc).
 
@@ -1391,7 +1379,6 @@ fn main() {
 ```
 
 ## Giving references to functions
-<br>
 
 See this chapter on YouTube: [immutable references](https://youtu.be/mKWXt9YTavc) and [mutable references](https://youtu.be/kJV1wIvAbyk).
 
@@ -1786,7 +1773,6 @@ So `[0..2]` means the first index and the second index (0 and 1). Or you can cal
 You can also have an **inclusive** range, which means it includes the last number too. To do this, add `=` to write `..=` instead of `..`. So instead of `[0..2]` you can write `[0..=2]` if you want the first, second, and third item.
 
 ## Vectors
-<br>
 
 [See this chapter on YouTube](https://youtu.be/Eh-DsRnDKmw).
 
@@ -1910,7 +1896,6 @@ fn main() {
 ```
 
 ## Tuples
-<br>
 
 [See this chapter on YouTube](https://youtu.be/U67Diy6SlTg).
 
@@ -2008,7 +1993,6 @@ Now it only creates a variable called `variable` but doesn't make a variable for
 There are many more collection types, and many more ways to use arrays, vecs, and tuples. We will learn more about them too, but first we will learn control flow.
 
 ## Control flow
-<br>
 
 See this chapter on YouTube: [Part 1](https://youtu.be/UAymDOpv_us) and [Part 2](https://youtu.be/eqysTfiiQZs).
 
@@ -2271,7 +2255,6 @@ Looks like a normal number
 ```
 
 ## Structs
-<br>
 
 See this chapter on YouTube: [Part 1](https://youtu.be/W23uQghBOFk) and [Part 2](https://youtu.be/GSVhrjLCuNA).
 
@@ -2402,7 +2385,6 @@ fn main() {
 ```
 
 ## Enums
-<br>
 
 See this chapter on YouTube: [Part 1](https://youtu.be/SRnqNTJUgjs), [Part 2](https://youtu.be/F_EcbWM63lk), [Part 3](https://youtu.be/2uh64U9JesA) and [Part 4](https://youtu.be/LOHVUYTc5Us).
 
