@@ -1,6 +1,6 @@
 # Easy Rust Epub
 
-
+The PDF is generated with Typst via [cmarker](https://github.com/SabrinaJewson/cmarker.typ), while the EPUB is produced using Pandoc. Until [EPUB output](https://github.com/typst/typst/issues/188) is supported, PDF generation will continue to use Pandoc.
 
 ## Credits
 
