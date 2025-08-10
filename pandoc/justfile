@@ -16,6 +16,15 @@ check: fmt compile
 fmt:
 
 compile:
-    # https://pandoc.org/epub.html
-    pandoc --webtex --output easy_rust.epub ../book/title.txt ../book/main.md
+    #!/usr/bin/env bash
+    pandoc ../book/main.md \
+        -f gfm \
+        --toc \
+        --standalone \
+        --webtex \
+        --top-level-division=chapter \
+        --metadata=title:"Easy Rust" \
+        --metadata=author:"Dave MacLeod" \
+        --metadata=lang:"en-US" \
+        --output easy_rust.epub
     

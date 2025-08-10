@@ -1,6 +1,0 @@
----
-title: Easy Rust
-author: Dave MacLeod 
-rights:  MIT
-language: en-US
----
