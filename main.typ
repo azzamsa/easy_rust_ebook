@@ -1,3 +1,3 @@
-= Hello world!
+#import "@preview/cmarker:0.1.6"
 
-*I am typst*
+#cmarker.render(read("book.md"))
