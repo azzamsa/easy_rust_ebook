@@ -17,11 +17,11 @@ comply: fmt compile
 check: fmt compile
 
 dev:
-    typst watch main.typ main.pdf --root .
+    typst watch main.typ easy_rust.pdf --root . --font-path ./fonts
 
 fmt:
     typstyle format-all
     # yamlfmt .
 
 compile:
-    typst compile main.typ main.pdf --root .
+    typst compile main.typ easy_rust.pdf --root .  --font-path ./fonts
