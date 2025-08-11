@@ -15,7 +15,7 @@ comply: fmt compile
 check: fmt compile
 
 fmt:
-    just --justfile typst/justfile fmt 
+    just --justfile typst/justfile fmt
 
 compile:
     just --justfile typst/justfile compile

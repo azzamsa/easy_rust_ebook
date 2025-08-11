@@ -1,3 +1,14 @@
+# Preface
+
+When I first picked up *The Rust Programming Language*, its thickness was a bit intimidating. That’s when *Easy Rust* came to the rescue. I’ve grown to love this book so much that I often find myself coming back to it. The only drawback was that I couldn’t add comments or highlights in the GitHub Markdown or mdBook versions. So, I created my own EPUB and PDF editions, and this is the book you’re reading right now. The code is hosted on [github.com/azzamsa/easy_rust_ebook](https://github.com/azzamsa/easy_rust_ebook).
+
+# Updates
+
+*Easy Rust* is also available in [various languages](https://github.com/Dhghomon/easy_rust#updates),
+a [web format](https://dhghomon.github.io/easy_rust/),
+and as a [video series](https://www.youtube.com/playlist?list=PLfllocyHVgsRwLkTAhG0E-2QxCf-ozBkk).
+If you enjoyed this book, the author has released an updated and expanded version, *Learn Rust in a Month of Lunches*, available for purchase on [Manning](https://www.manning.com/books/learn-rust-in-a-month-of-lunches). This new edition is based on the original *Easy Rust*, incorporating reader feedback and nearly doubling the content.
+
 # Introduction
 
 Rust is a new language that already has good textbooks. But sometimes its textbooks are difficult because they are for native English speakers. Many companies and people now learn Rust, and they could learn faster with a book that has easy English. This textbook is for these companies and people to learn Rust with simple English.
