@@ -19,3 +19,4 @@ fmt:
 
 compile:
     just --justfile typst/justfile compile
+    just --justfile pandoc/justfile compile
