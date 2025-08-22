@@ -7,5 +7,3 @@
 #show heading: set block(below: 1em)
 
 #cmarker.render(read("../book/main.md"))
-
-
