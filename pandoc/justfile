@@ -17,6 +17,7 @@ fmt:
 
 compile:
     #!/usr/bin/env bash
+    mkdir -p ../build
     pandoc ../book/main.md \
         -f gfm \
         --toc \
@@ -26,5 +27,4 @@ compile:
         --metadata=title:"Easy Rust" \
         --metadata=author:"Dave MacLeod" \
         --metadata=lang:"en-US" \
-        --output easy_rust.epub
-    
+        --output ../build/easy_rust.epub

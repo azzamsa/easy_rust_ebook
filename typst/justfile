@@ -18,7 +18,8 @@ dev:
     typst watch main.typ easy_rust.pdf --root ../ --font-path ../fonts
 
 fmt:
-    typstyle format-all
+    typstyle --inplace .
 
 compile:
-    typst compile main.typ easy_rust.pdf --root ../  --font-path ../fonts
+    mkdir -p ../build
+    typst compile main.typ ../build/easy_rust.pdf --root ../  --font-path ../fonts

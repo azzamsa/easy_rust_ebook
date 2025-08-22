@@ -1,6 +1,5 @@
 #!/usr/bin/env -S just --justfile
 
-
 alias c := comply
 alias k := check
 
@@ -20,3 +19,6 @@ fmt:
 compile:
     just --justfile typst/justfile compile
     just --justfile pandoc/justfile compile
+
+clean:
+    rm -rf build
