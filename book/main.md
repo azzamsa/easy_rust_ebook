@@ -1,4 +1,4 @@
-# Preface
+# Maintainer’s Note
 
 When I first picked up *The Rust Programming Language*, its thickness was a bit intimidating. That’s when *Easy Rust* came to the rescue. I’ve grown to love this book so much that I often find myself coming back to it. The only drawback was that I couldn’t add comments or highlights in the GitHub Markdown or mdBook versions. So, I created my own EPUB and PDF editions, and this is the book you’re reading right now. The code is hosted on [github.com/azzamsa/easy_rust_ebook](https://github.com/azzamsa/easy_rust_ebook).
 
