@@ -13,12 +13,12 @@ jobs:
       - uses: taiki-e/install-action@just
       - uses: taiki-e/install-action@v2
         with:
-          tool: typst-cli
+          tool: typst-cli, typstyle
 
       - name: Install Pandoc
         shell: bash
         run: |
-          sudo apt get install -y pandoc
+          sudo apt-get install -y pandoc
 
       - name: Show version information
         shell: bash
