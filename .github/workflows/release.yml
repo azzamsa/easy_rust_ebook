@@ -81,8 +81,8 @@ jobs:
         run: |
           outdir="./build"
 
-          echo "PDF=$outdir/easy-rust.pdf" >> $GITHUB_ENV
-          echo "EPUB=$outdir/easy-rust.epub" >> $GITHUB_ENV
+          echo "PDF=$outdir/easy_rust.pdf" >> $GITHUB_ENV
+          echo "EPUB=$outdir/easy_rust.epub" >> $GITHUB_ENV
 
       - name: Release
         uses: softprops/action-gh-release@v2
