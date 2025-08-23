@@ -4,6 +4,10 @@
 
 When I first picked up _The Rust Programming Language_, its thickness was a bit intimidating. That’s when _Easy Rust_ came to the rescue. I’ve grown to love this book so much that I often find myself coming back to it. The only drawback was that I couldn’t add comments or highlights in the GitHub Markdown or mdBook versions. So, I created my own EPUB and PDF editions.
 
+<div align="center">
+<img src='https://github.com/user-attachments/assets/443714b0-2077-40c7-8742-bcbf3fd21092' width=350px />
+</div>
+
 ## Where are the files?
 
 Grab the PDF and EPUB from [Releases](https://github.com/azzamsa/easy_rust_ebook/releases).
