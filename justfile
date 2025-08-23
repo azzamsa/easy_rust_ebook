@@ -26,3 +26,8 @@ compile:
 
 clean:
     rm -rf build
+
+[doc('Prepare release hooks')]
+_release-prepare version:
+    git-cliff --config .cliff.toml --output CHANGELOG.md --tag {{ version }}
+    just fmt
