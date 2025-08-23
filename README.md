@@ -1,4 +1,4 @@
-# Easy Rust Epub
+# Easy Rust Ebook
 
 ## Why
 

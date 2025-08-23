@@ -6,7 +6,7 @@ on:
       - "v*"
 
 env:
-  APP_NAME: easy_rust
+  APP_NAME: easy_rust_ebook
 
 jobs:
   create-github-release:
