@@ -8,12 +8,11 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout source code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - uses: taiki-e/install-action@just
       - uses: taiki-e/install-action@v2
         with:
-          tool: typst-cli, typstyle
+          tool: just, typst-cli, typstyle
 
       - name: Install Pandoc
         shell: bash
