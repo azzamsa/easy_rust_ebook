@@ -11,10 +11,14 @@ _default:
 comply: fmt compile
 
 # Check if the repository comply with the rules and ready to be pushed.
-check: fmt compile
+check: fmt-check compile
 
 fmt:
+    dprint fmt
     just --justfile typst/justfile fmt
+
+fmt-check:
+    dprint check
 
 compile:
     just --justfile typst/justfile compile

@@ -12,7 +12,7 @@ jobs:
 
       - uses: taiki-e/install-action@v2
         with:
-          tool: just, typst-cli, typstyle
+          tool: just, dprint, typst-cli, typstyle
 
       - name: Install Pandoc
         shell: bash
